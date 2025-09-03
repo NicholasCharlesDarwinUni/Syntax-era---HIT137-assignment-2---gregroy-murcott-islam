@@ -1,4 +1,3 @@
-# Python program to print complete Koch Curve.
 from turtle import *
 import turtle
 
@@ -13,13 +12,10 @@ turtle.shape("turtle")
 
 def centreTurtle():
     penup()                     
-
     backward(int(l_amount) / 2)
     left(90)
     forward(int(l_amount) / 2)
     right(90)
-
-    # Pull the pen down – drawing when moving.        
     pendown()           
 
 def draw_regular_polygon(t, sides, length):
@@ -55,6 +51,7 @@ if (d_amount == 0):
 else:
     drawFrac(s_amount, l_amount, d_amount)
           
+
 
 
     mainloop()  
